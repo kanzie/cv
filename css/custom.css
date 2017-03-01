@@ -1,0 +1,473 @@
+body {
+	font-size: 62.5%;
+	background-color: #f2f2f2;
+	background-image: url('../images/bg.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	background-attachment:fixed;		
+	font-family: Georgia, "Palatino Linotype", Times, serif;
+	
+}
+
+.ui-tabs-panel {
+	border-width: 1px;
+}
+
+img {
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+ul {
+	list-style: none;
+}
+
+.merits ul {
+	list-style-type: circle;	
+}
+
+.category li {
+	list-style-type: disc;	
+}
+
+ui-dialog {
+	margin-top: 50px;	
+}
+
+#wrap {
+	width: 840px;
+	margin: 50px auto ;
+}
+
+#tabs {
+	background: none;
+	border: none;
+}
+
+.tab {
+	border: 1px solid #aaaaaa;	
+}
+
+#accordion .ui-state-active {
+	background: #E6E6E6 url('../images/?new=cedac3&w=1&h=400&f=png&q=100&fltr[]=over|textures/02_glass.png|0|0|65') repeat-x scroll 50% 50%;	
+}
+
+#accordion .ui-widget-content {
+	background: #CEDAC3;	
+}
+
+.content {
+	border: 1px solid #aaaaaa;	
+}
+
+.tablist {
+	margin-left: 70px;
+	background: none;
+	border: none;
+	font-size: 1.6em;	
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+.ui-tabs .ui-tabs-hide {
+    position: absolute;
+    left: -10000px;
+}
+
+.hide {
+	display:none;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+.bold {
+	font-weight: bolder;	
+}
+#contactFormContainer
+{
+	top: 0;
+	position:absolute;
+	margin-left: 201px;
+	z-index: 1005;
+}
+
+#contact label {
+   display:block;
+}      
+
+#contact {
+	display:none;
+	width: 550px;
+	background-color: #efeff0;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	padding: 20px;	
+}
+
+#contact input[type=text] {
+   border:solid 1px #ccc;
+   width:400px;
+   margin-bottom:10px;
+   height:14px;
+}  
+
+#contact textarea {
+	width: 500px;
+	height: 250px;
+	border:solid 1px #ccc;
+}  
+
+#contactLink {
+	background-color: #aa5555;
+	text-align: center;	
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100px;
+	height: 30px;
+	margin-left: 400px;
+	display: block;
+	color: white;
+	cursor: pointer;
+}
+
+.contact {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 1.3em;	
+}
+
+.tag {
+	width: 50px; 
+	vertical-align: top;
+	text-align:right; 
+	height: 150px; 
+	padding-top: 50px;	
+}
+
+.item {
+	padding: 20px;
+}
+
+.item p {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.title {
+	color: #3e3e3e; 
+	font-family: Georgia, serif;
+	font-weight: normal;
+	line-height: 1.5em;
+	font-size: 2.0em;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.logo {
+	background-color: #fff; 
+	padding: 10px 0;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.date {
+	
+}
+
+.titlePosition {
+	margin: 0;
+	color: #fff; 
+	font-weight: bolder;
+	font-size: 1.2em; 
+}
+
+.middletop, .middlebottom {
+	width: 180px;
+	padding-left: 10px;
+	background: url('../images/png30.png');
+	vertical-align: top;
+	color: #dcdcdc;
+	margin: 0;
+}
+
+.middlebottom { 
+	vertical-align: bottom;
+}
+
+.textTitle {
+	font-weight: bolder; 
+	margin: 0;	
+}
+
+.objectBreak {
+	padding-bottom: 30px;	
+}
+
+.object {
+	width: 100%;
+	margin-bottom: 50px;	
+}
+
+.right {
+	color: white;
+	width: 470px;
+	vertical-align: top;
+}
+
+ol {
+	clear: both;
+	list-style: none;	
+}
+
+ol li {
+	list-style: none;
+}
+
+.tweet {
+	background-color: #ededed;
+	text-align: left;
+	clear: both;	
+	margin-bottom: 20px;
+	padding: 5px 10px;	
+}
+
+.twitterUser {
+	
+}
+
+.tweetDate {
+	font-style: italic;
+/*	font-size: 0.5em; */	
+}
+
+.tweetImage {
+	float: left;
+	margin-right: 20px;
+	width: 48px;
+	height: 48px;
+}
+
+.tweetMessage {
+/*	font-size: 0.7em; */
+}
+
+#flagrareMovie�{
+	text-align: center;
+	width: 425px;
+	height: 344px;	
+}
+
+.twitterTimeline {
+	float: right;
+	width: 350px;
+}
+
+.project {
+	width: 220px; 
+	float: left; 
+	border: 1px solid black; 
+	text-align: center;
+	cursor: pointer;
+}
+
+.projectWrapper {
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;	
+}
+
+.middleProject {
+	margin: 0 40px;	
+}
+
+.projectImage {
+	background-color: #fff; 
+	margin: 0;	
+}
+
+.projectText {
+	text-align:left;
+	background: url('../images/png80.png');
+	margin: 0; 
+	padding: 10px;	
+	color: #DCDCDC;
+}
+
+.paperlist {
+	margin: 0;
+	background-color: #ededed;
+	padding: 20px 10px;
+}
+
+.projectItem {
+	background-color: #ededed; 
+	width: 100%; 
+	text-align: left; 
+	padding: 5px;	
+}
+
+.paperDescription {
+	font-style: italic; 
+	margin-bottom: 20px;	
+}
+
+.online {
+	float:left; 
+	height: 341px; 
+	width: 360px;
+	padding: 0;
+	margin: 50px 0 0 10px; 
+	padding-top: 50px;
+}
+
+.online ul li img {
+	float:left;
+	margin:0 10px 0 0;
+	vertical-align:top;
+}
+
+.online ul li {
+	display:block;
+	float:left;
+	font-weight:bold;
+	height:42px;
+	padding: 0;
+	margin:0 0 20px;
+	width:150px;
+}
+
+.online ul li span {
+	color:#2C2C2C;
+	display:block;
+/*	font-size:0.7em;*/
+	font-weight:normal;
+	margin:0 0 0 20px;
+}
+
+.online ul li a {
+/*	font-size: 0.9em; */
+	display:block;
+	padding:4px 0 0;
+}
+
+a:hover {
+	color:#2C2C2C;
+	text-decoration:underline;
+}
+
+a {
+	color:#2C2C2C;
+	text-decoration:none;
+}
+
+.twitterbird {
+	margin-left: 115px;
+	position: relative;
+	top: 5px;
+	z-index: -5;
+}
+
+#contactMessage {
+	text-align: center; 
+	width: 100%;
+}
+
+.projectOverlay {
+	text-align: center;
+}
+
+.headerText {
+	font-family: Georgia, serif;
+	font-weight: bold;
+	line-height: 1.5em;
+	font-size: 1.3em;	
+}
+
+.aboutMeShort {
+	font-size: 1.1em;	
+	color: #000000;
+	font-weight: normal;
+	position: relative;
+	left: -20px;
+	text-align:	right; 	
+}
+
+.contentText {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	line-height: 1.8em;	
+}
+
+.aboutme {
+	color: #dcdcdc;
+	float:left; 
+	width: 510px; 
+	padding: 0px 20px; 
+	background: url('../images/png80.png');
+}
+
+.justify {
+	text-align: justify;
+	line-height:	1.4em;
+}
+
+.aboutPicture {	
+	background: url('../images/png20.png');
+	float:left;	
+}
+
+#accordion h3 {
+	font-size: 1.6em;
+}
+
+.frontside {
+	font-size: 0.7em;
+	line-height: 1.4em;
+}
+
+.bigger {
+	font-size: 1.6em;
+}
+
+.badder {
+	font-size: 2.2em;
+}
+
+.baddest {
+	font-size: 2.3em;
+}
+
+.blue {
+	color: #558ed9;
+}
+
+.grey {
+	color: #ccc;
+}
+
+.quote {
+	font-style: italic;
+}

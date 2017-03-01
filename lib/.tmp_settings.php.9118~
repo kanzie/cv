@@ -1,0 +1,10 @@
+<?php
+	header('Content-Type: text/html; charset=iso-8859-1');	
+	define("TWITTERUSER", "kanzie@gmail.com");
+	define("TWITTERPASSWORD", "fx90Bbc");
+	define("TWITTERURL", "http://twitter.com/statuses/update.json");
+	
+	define("MYNAME", "Christian [kanzie] Nilsson");
+	define("MYEMAIL", "kanzie@gmail.com");
+	date_default_timezone_set('America/Los_Angeles');
+?>

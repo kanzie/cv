@@ -1,0 +1,29 @@
+
+#rightBottomBar {	
+	height: 81px;
+	width: 100%;
+	float: left;
+}
+
+.graphsButton {
+	background: url(../images/rightPanelBottom.png) no-repeat 0px 0px;
+}
+
+.actionsButton {
+	background: url(../images/rightPanelBottom.png) no-repeat 0 -81px;
+}
+
+.historyButton {
+	background: url(../images/rightPanelBottom.png) no-repeat 0 -162px;
+}
+
+.alarmsButton {
+	background: url(../images/rightPanelBottom.png) no-repeat 0 -243px;
+}
+
+.panelButton {
+	float: left;
+	width: 95px;
+	cursor: pointer;
+	height: 81px;	
+}
